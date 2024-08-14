@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --brown: rgb(68, 1, 1);
+    --light-blue: rgb(212, 199, 248);
+    --font-header: "Poppins", sans-serif;
+    --blue:  rgb(3, 3, 193);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+/* IMAGEM */
+.container .form-imagem{
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    background-color: var(--light-blue);
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+}
+
+img{
+    width: 40rem;
+}
+
+/* HEADER */
+.header{
+    color: var(--brown);
+    font-family: var(--font-header);
+    margin-bottom: 3rem;
+}
+
+.header span{
+    color: var(--blue);
+}
+
+.header h1{
+    font-size: 4.4rem;
+}
+
+.header h2{
+    font-size: 3.8rem;
+}
+
+/* FORM */
+
+.content-form{
+    padding: 6rem;
+    width: 50%;
+}
+
+.form,
+input{
+    width: 100%;
+}
+
+input{
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.4rem rgba(90, 89, 89, 0.2);
+    outline: none;
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    margin-top: 0.4rem;
+    background-color: rgb(249, 249, 249);
+}
+
+input:hover,
+input:focus{
+    background-color: rgb(246, 246, 246);
+}
+
+.form .input-box label{
+    font-family: var(--font-header);
+    color: gray;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form .input-box input::placeholder{
+    font-size: 1rem;
+    font-family: var(--font-header);
+    font-weight: 500;
+    color: rgb(168, 168, 168)
+}
+
+/* BOTÃO */
+button{
+    width: 100%;
+    background-color: var(--blue);
+    border: none;
+    height: 2.6rem ;
+    border-radius: 0.3rem;
+    color: white;
+    margin-top: 1.4rem;
+    box-shadow: 0.1rem 0.1rem 0.4rem rgba(49, 1, 97, 0.2);
+}
+
+button:hover{
+    background-color: rgb(3, 3, 175);
+    cursor: pointer;
+}
