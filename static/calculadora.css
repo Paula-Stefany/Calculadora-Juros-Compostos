@@ -111,3 +111,9 @@ button:hover{
     background-color: rgb(3, 3, 175);
     cursor: pointer;
 }
+
+.result{
+    font-family: var(--font-header);
+    color: rgb(40, 40, 40);
+    font-weight: 500;
+}
